@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	  background-color: white;
+}
+h1{
+	color: #ff4411;
+	 font-size: 48px;
+	  font-family: 'Signika', sans-serif; padding-bottom: 10px;
+	  text-align: center;
+
+
+
+}
+p{
+	font-size: 30px;
+	color: black;
+	font-family: system-ui;
+	text-align: justify;
+}
+* body {
+	background: url(Bg.png);
+	background-size: position: fixed;
+}
+
+form{
+	 display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+button[type="submit"] {
+  width: 100px; /* set width to 100 pixels */
+  height: 40px; /* set height to 40 pixels */
+  margin-bottom: 30px;
+}
